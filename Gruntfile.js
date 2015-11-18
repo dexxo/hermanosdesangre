@@ -65,6 +65,7 @@ module.exports = function(grunt) {
         options: {
           sassDir: 'app/assets/sass',
           cssDir: 'app/assets/stylesheets',
+          outputStyle: 'compressed',
           environment: 'development'
         }
       }

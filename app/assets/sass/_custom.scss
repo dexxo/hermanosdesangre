@@ -341,6 +341,7 @@ input:focus:-moz-placeholder {
   float: right;
 
 }
+
 .col_izq {
   background: $softRed;
   vertical-align: top;
@@ -351,8 +352,9 @@ input:focus:-moz-placeholder {
     position: relative;
     left: 0;
     bottom: 0;
-    display: block;
+    display: inline-block;
   }
+
 }
 
 @media #{$medium-up} {
@@ -362,7 +364,7 @@ input:focus:-moz-placeholder {
       min-height: 805px;
     }
   }
-$  .col_izq {
+  .col_izq {
     min-height: 870px;
     width: 50%;
 

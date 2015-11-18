@@ -2,4 +2,4 @@
   'use strict';
 
 
-}(window.jquery));
+}(window.jQuery));
